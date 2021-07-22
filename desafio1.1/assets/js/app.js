@@ -24,3 +24,13 @@ if (validacion(num1,num2)){
     alert(`la division es: ${num1/num2}`)
     alert(`el modulo es: ${num1%num2}`)
 }
+
+
+var num1= prompt("ingrese temperatura en celcius");
+num1= parseInt(num1);
+
+alert(`la temperatura en kelvin es: ${num1+273.15}`)
+alert(`la temperatura en fahrenheit es: ${(num1*9/5)+32}`)
+
+
+
