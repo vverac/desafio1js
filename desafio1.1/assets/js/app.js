@@ -34,3 +34,22 @@ alert(`la temperatura en fahrenheit es: ${(num1*9/5)+32}`)
 
 
 
+var diasUsuario = prompt('ingrese total de dias');
+diasUsuario = parseFloat(diasUsuario);
+
+var anios = 0, semana = 0, dias = 0;
+
+
+if (diasUsuario >= 365){
+anios = Math.floor(diasUsuario/365)
+diasRestantes = diasUsuario - (anios*365)
+semana = Math.floor(diasRestantes /7)
+dias = diasRestantes - (semana*7);
+} else if (diasUsuario >= 7){
+semana = Math.floor(diasUsuario /7)
+dias = diasUsuario - (semana*7);
+} else {dias = diasUsuario} 
+alert (`Años: ${anios}, Semanas: ${semana}, Dias: ${dias} `)
+
+
+
