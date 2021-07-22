@@ -53,3 +53,19 @@ alert (`Años: ${anios}, Semanas: ${semana}, Dias: ${dias} `)
 
 
 
+var num_1= prompt("ingrese primer numero");
+num_1= parseInt(num_1);
+var num_2= prompt("ingrese segundo numero");
+num_2= parseInt(num_2);
+var num_3= prompt("ingrese tercer numero");
+num_3= parseInt(num_3);
+var num_4= prompt("ingrese cuarto numero");
+num_4= parseInt(num_4);
+var num_5= prompt("ingrese quinto numero");
+num_5= parseInt(num_5);
+
+alert(`la suma de todos es: ${num_1+num_2+num_3+num_4+num_5}`)
+alert(`el promedio es: ${(num_1+num_2+num_3+num_4+num_5)/5}`)
+
+
+
