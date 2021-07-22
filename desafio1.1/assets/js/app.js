@@ -1,3 +1,4 @@
+
 function validacion() {
     if (num1 == num2) {
       // Si no se cumple la condicion...
@@ -11,7 +12,7 @@ function validacion() {
     }
     return true;
 }
-
+//se pide ingresar por el navegador dos variables
 var num1= prompt("ingrese primer numero");
 num1= parseInt(num1);
 var num2= prompt("ingrese segundo numero");
@@ -25,7 +26,7 @@ if (validacion(num1,num2)){
     alert(`el modulo es: ${num1%num2}`)
 }
 
-
+//se pide ingresar una variable por el navegador
 var num1= prompt("ingrese temperatura en celcius");
 num1= parseInt(num1);
 
@@ -33,7 +34,7 @@ alert(`la temperatura en kelvin es: ${num1+273.15}`)
 alert(`la temperatura en fahrenheit es: ${(num1*9/5)+32}`)
 
 
-
+//se pide ingresar una variable por el navegador
 var diasUsuario = prompt('ingrese total de dias');
 diasUsuario = parseFloat(diasUsuario);
 
@@ -52,7 +53,7 @@ dias = diasUsuario - (semana*7);
 alert (`Años: ${anios}, Semanas: ${semana}, Dias: ${dias} `)
 
 
-
+//se pide ingresar cinco variable por el navegador
 var num_1= prompt("ingrese primer numero");
 num_1= parseInt(num_1);
 var num_2= prompt("ingrese segundo numero");
